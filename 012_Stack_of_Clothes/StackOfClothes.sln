@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackOfClothes.Logic", "StackOfClothes.Logic\StackOfClothes.Logic.csproj", "{0378D872-F064-43A9-918E-5E9B82157066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackOfClothes.App", "StackOfClothes.App\StackOfClothes.App.csproj", "{29863DD9-FF50-463D-A2AB-149751C943D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0378D872-F064-43A9-918E-5E9B82157066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0378D872-F064-43A9-918E-5E9B82157066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0378D872-F064-43A9-918E-5E9B82157066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0378D872-F064-43A9-918E-5E9B82157066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29863DD9-FF50-463D-A2AB-149751C943D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29863DD9-FF50-463D-A2AB-149751C943D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29863DD9-FF50-463D-A2AB-149751C943D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29863DD9-FF50-463D-A2AB-149751C943D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

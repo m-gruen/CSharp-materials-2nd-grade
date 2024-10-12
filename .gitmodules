@@ -1,0 +1,9 @@
+[submodule "014_Christmas_Queue"]
+	path = 014_Christmas_Queue
+	url = git@github.com:Teaching-HTL-Leonding/christmas-queue-m-gruen.git
+[submodule "017_Train_Switching"]
+	path = 017_Train_Switching
+	url = git@github.com:Teaching-HTL-Leonding/train-switching-m-gruen.git
+[submodule "025_Vending_Machine"]
+	path = 025_Vending_Machine
+	url = git@github.com:Teaching-HTL-Leonding/vending-machine-m-gruen.git

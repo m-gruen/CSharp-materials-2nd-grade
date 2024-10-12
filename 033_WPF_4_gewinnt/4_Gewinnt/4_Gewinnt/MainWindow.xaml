@@ -1,0 +1,35 @@
+﻿<Window x:Class="TickTackToe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TickTackToe"
+        mc:Ignorable="d" 
+        Title="MainWindow" Height="600" Width="500">
+    <DockPanel>
+        <!--ResizeMode="NoResize" With this you can make the window stay the same-->
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 5 0 5" Name="BottomRow">
+            <TextBlock Text="Column:" Margin="10 0 5 0" VerticalAlignment="Center"/>
+            <ComboBox Width="35" Name="ColumnCombo"/>
+            <Button Margin="10 0 0 0" Padding="10 0" Click="OnSet">Set</Button>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Name="FourWinsPanel">
+            <StackPanel.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="Width" Value="50"/>
+                    <Setter Property="Height" Value="50"/>
+                    <Setter Property="BorderBrush" Value="Black"/>
+                    <Setter Property="BorderThickness" Value="1"/>
+                    <Setter Property="CornerRadius" Value="5"/>
+                    <Setter Property="Margin" Value="1"/>
+                </Style>
+                <Style TargetType="TextBlock">
+                    <Setter Property="FontSize" Value="24"/>
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="FontFamily" Value="Arial Black"/>
+                </Style>
+            </StackPanel.Resources>
+        </StackPanel>
+    </DockPanel>
+</Window>

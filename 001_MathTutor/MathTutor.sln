@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathTutor.Logic", "MathTutor.Logic\MathTutor.Logic.csproj", "{C988A18B-BA42-434A-88F8-1ACDD66CD6C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathTuror.App", "MathTuror.App\MathTuror.App.csproj", "{0C1F9385-195D-469A-BA62-77C3E6AC4F03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C988A18B-BA42-434A-88F8-1ACDD66CD6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C988A18B-BA42-434A-88F8-1ACDD66CD6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C988A18B-BA42-434A-88F8-1ACDD66CD6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C988A18B-BA42-434A-88F8-1ACDD66CD6C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C1F9385-195D-469A-BA62-77C3E6AC4F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C1F9385-195D-469A-BA62-77C3E6AC4F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C1F9385-195D-469A-BA62-77C3E6AC4F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C1F9385-195D-469A-BA62-77C3E6AC4F03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
